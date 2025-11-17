@@ -1,0 +1,40 @@
+.cell {
+  border: 2px solid var(--base-10);
+  background: var(--base-20);
+  margin: 0;
+  padding: 8px 16px;
+  text-align: right;
+
+  &--title {
+    text-align: left;
+  }
+
+  &--subcategory-item {
+    padding-left: 30px;
+  }
+
+  &--today {
+    background: var(--brand-20);
+  }
+
+  &--positive {
+    background: var(--success-20);
+  }
+
+  &--negative {
+    background: var(--error-20);
+  }
+
+  &__percent {
+    min-width: 50px;
+    display: inline-block;
+
+    &--positive {
+      color: var(--success-80);
+    }
+
+    &--negative {
+      color: var(--error-60);
+    }
+  }
+}

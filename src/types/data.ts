@@ -1,16 +1,16 @@
 export type DataPoint = {
-  /** Date string in DD/MM/YYYY format */
   date: string;
-  /** Numeric value for the data point */
   value: number;
 };
 
 export interface Subcategory {
+  id: number;
   category: string;
   data: DataPoint[];
 }
 
 export interface Category {
+  id: number;
   category: string;
   data: DataPoint[];
   subcategories?: Subcategory[];

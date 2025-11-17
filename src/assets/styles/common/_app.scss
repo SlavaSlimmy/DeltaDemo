@@ -4,3 +4,12 @@ body {
   min-height: 100%;
   height: auto;
 }
+
+body {
+  margin: 0;
+  color: var(--base-90);
+  font-size: 14px;
+  font-family: var(--font-geist-sans);
+  font-weight: 400;
+  line-height: 1.5;
+}
