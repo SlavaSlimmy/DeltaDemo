@@ -16,6 +16,12 @@
 
   &__row {
     cursor: pointer;
+
+    &:hover {
+      td {
+        background: var(--gray-1);
+      }
+    }
   }
 }
 
