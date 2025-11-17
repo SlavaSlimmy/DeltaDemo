@@ -1,0 +1,85 @@
+:root {
+  // Base
+  --base-100: #000000;
+  --base-90:  #101010;
+  --base-80:  #202020;
+  --base-70:  #404040;
+  --base-60:  #606060;
+  --base-50:  #808080;
+  --base-40:  #A0A0A0;
+  --base-30:  #C0C0C0;
+  --base-20:  #E0E0E0;
+  --base-10:  #FFFFFF;
+
+  // Blue
+  --blue-100: #00060C;
+  --blue-90:  #0C0E13;
+  --blue-80:  #1B2634;
+  --blue-70:  #263344;
+  --blue-60:  #253442;
+  --blue-50:  #3C5D7C;
+  --blue-40:  #51B1E0;
+  --blue-30:  #99DDFF;
+  --blue-20:  #E2E8F0;
+  --blue-10:  #F5FCFF;
+  
+  // Brand
+  --brand-100: #121821;
+  --brand-90:  #001530;
+  --brand-80:  #002348;
+  --brand-70:  #2A6F8F;
+  --brand-60:  #3A8EB4;
+  --brand-50:  #54B6E7;
+  --brand-40:  #73C1E4;
+  --brand-30:  #A3D4EB;
+  --brand-20:  #D0E6F4;
+  --brand-10:  #F5F9FC;
+  
+  // Success
+  --success-100: #113C23;
+  --success-90:  #1B5E36;
+  --success-80:  #277C48;
+  --success-70:  #359A5A;
+  --success-60:  #43B76B;
+  --success-50:  #53D47F;
+  --success-40:  #85D89D;
+  --success-30:  #B0E5C0;
+  --success-20:  #D8F2E1;
+  --success-10:  #F4FCF6;
+  
+  // Warning
+  --warning-100: #4D2200;
+  --warning-90:  #793600;
+  --warning-80:  #A64B00;
+  --warning-70:  #D25F00;
+  --warning-60:  #F17400;
+  --warning-50:  #FF8A29;
+  --warning-40:  #FFA053;
+  --warning-30:  #FFB77C;
+  --warning-20:  #FFCDA6;
+  --warning-10:  #FFEEE0;
+  
+  // Error
+  --error-100: #35100E;
+  --error-90:  #5B1C17;
+  --error-80:  #802921;
+  --error-70:  #A6372B;
+  --error-60:  #CC4435;
+  --error-50:  #E74C3C;
+  --error-40:  #EC7D71;
+  --error-30:  #F4A69C;
+  --error-20:  #FFD8D4;
+  --error-10:  #FFF6F5;
+  
+  // Black opacity
+  --black-opacity: #050505; // example: rgba(var(--black-opacity), 0.9)
+
+  // White opacity
+  --white-opacity: #FFFFFF; // example: rgba(var(--white-opacity), 0.9)  
+
+  // Blue opacity
+  --blue-opacity: #263344; // example: rgba(var(--blue-opacity), 0.9)
+
+  // Gray opacity
+  --gray-opacity: #3A3B3C; // example: rgba(var(--gray-opacity), 0.9)     
+}
