@@ -3,14 +3,14 @@
   border-collapse: collapse;
 
   &__cell {
-    border: 2px solid var(--base-10);
-    background: var(--base-20);
+    border: 2px solid var(--white);
+    background: var(--gray);
     margin: 0;
     padding: 8px 16px;
     text-align: center;
 
     &--today {
-      background: var(--brand-20);
+      background: var(--blue);
     }
   }
 

@@ -30,7 +30,11 @@ export const RowDetails = ({ id, title, data }: Props) => {
   return (
     <tr key={id ? `details-${id}` : undefined}>
       <td colSpan={4}>
-        <div className={styles.chart}>
+        <div
+          className={styles.chart}
+          role="img"
+          aria-label={`График: ${title}`}
+        >
           <Chart>
             <XAxis categories={categories} />
             <Series type="line" data={seriesData} options={{ name: title }} />

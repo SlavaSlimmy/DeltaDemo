@@ -1,6 +1,6 @@
 .cell {
-  border: 2px solid var(--base-10);
-  background: var(--base-20);
+  border: 2px solid var(--white);
+  background: var(--gray);
   margin: 0;
   padding: 8px 16px;
   text-align: right;
@@ -14,27 +14,28 @@
   }
 
   &--today {
-    background: var(--brand-20);
+    background: var(--blue);
   }
 
   &--positive {
-    background: var(--success-20);
+    background: var(--green-1);
   }
 
   &--negative {
-    background: var(--error-20);
+    background: var(--red-1);
   }
 
   &__percent {
     min-width: 50px;
     display: inline-block;
+    font-weight: 600;
 
     &--positive {
-      color: var(--success-80);
+      color: var(--green);
     }
 
     &--negative {
-      color: var(--error-60);
+      color: var(--red);
     }
   }
 }
